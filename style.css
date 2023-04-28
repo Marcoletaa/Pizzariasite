@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+img{
+    width:250px;
+
+}
+.nomepizzas{
+    font-size:25px;
+    font-weight:bold;
+
+}
+.preco{
+    font-size: 20px;
+    color: #f27907;
+    font-weight: bold;
+}
+.cards{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right: 20px;
+    background-color:white;
+    padding:20px;
+    margin-top:20px;
+    height:300px;
+    transition: 0.5s ease-in-out all;
+
+}
+h1{
+    font-size:60px;
+    text-align:center;
+    color:white;
+
+}
+.opcoes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color:#212529;
+}
+footer{
+    color:white;
+    margin-top:100px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.menu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    display:flex;
+}
+li{
+    color: rgb(31, 28, 28);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+li:hover{
+    cursor: pointer;
+    color: #f27907;
+
+}
+.cards:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
